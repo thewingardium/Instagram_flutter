@@ -36,7 +36,7 @@ class Post {
   }
 
   Map<String, dynamic> toJson() => {
-        "desciption": description,
+        "description": description,
         "uid": uid,
         "username": username,
         "postId": postId,
